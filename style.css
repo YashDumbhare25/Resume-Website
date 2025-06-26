@@ -1,5 +1,8 @@
+/* Import Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background: #f9f9f9;
@@ -10,8 +13,18 @@ body {
 header {
   background: #2c3e50;
   color: white;
-  padding: 30px;
+  padding: 15px;
   text-align: center;
+}
+
+.sop-text {
+  font-size: 16px;
+  color: #ecf0f1;
+  margin-top: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: justify;
 }
 
 section {
@@ -20,8 +33,10 @@ section {
   margin: auto;
   background: white;
   margin-top: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
 
 h2 {
   color: #2c3e50;
@@ -30,6 +45,44 @@ h2 {
 a {
   color: #2980b9;
   text-decoration: none;
+}
+
+/* Add spacing between list items */
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Resume link styling */
+.resume a {
+  font-weight: bold;
+  font-size: 16px;
+  color: #27ae60;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+/* Achievement section styling */
+.achievement-item {
+  margin:0;
+  font-size: 16px;
+  color:#333;
+  text-align: center;;
+}
+
+.achievement-item img {
+  margin-top:10px;
+  width: 600px;
+  height: auto;
+  object-fit: cover;;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-item p {
+  font-size: 16px;
+  color: #333;
 }
 
 footer {
