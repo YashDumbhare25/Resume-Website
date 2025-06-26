@@ -92,3 +92,33 @@ footer {
   padding: 15px;
   margin-top: 20px;
 }
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  section {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .achievement-item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sop-text {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
